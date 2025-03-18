@@ -9,7 +9,7 @@
 <body>
     <h1>SUS</h1>
     <p>Selecione seu sintoma:</p>
-    <select name="sintomas" id="">
+    <select name="sintomas">
         <option value="SEL">Seleciona</option>
         <option value="">Tosse</option>
         <option value="">Febre</option>
@@ -17,8 +17,14 @@
         <option value="">Dor de Cabeça</option>
     </select>
     <br><br>
+    <button type="submit" onclick="apareceFrase()" ondblclick="desapareceFrase()">Diagnóstico</button>
 
-    <button type="submit">Diagnóstico</button>
+    <div id="texto">
+        <p id="hello">Hello World!</p>
+        <p>Xarope de morango de 6 em 6 horas</p>
+    </div>
     
+    <script src="teste.js"></script>
+
 </body>
 </html>

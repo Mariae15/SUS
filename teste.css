@@ -2,11 +2,28 @@ body{
     text-align: center;
     padding-top: 200px;
     background-image: url(https://www.ubatuba.sp.gov.br/wp-content/uploads/sites/2/2018/08/ze-gotinha_edit-770x416.jpg);
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 h1{
     color: darkcyan;
-    
+    font-size: 40px;
 }
 
+p{
+    font-weight: bold;
+}
 
+button{
+    cursor: pointer;
+    background-color: darkcyan;
+}
+
+#texto{
+    display: none;
+}
+
+#hello{
+    color: red;
+}
